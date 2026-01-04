@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  spark-master:
+    image: jupyter/pyspark-notebook:latest
+    container_name: steam_bigdata_container
+    user: root
+    ports:
+      - "8888:8888" # Jupyter
+      - "4040:4040" # Spark UI
+      - "8501:8501"
+    volumes:
+      - ./data:/home/jovyan/work/data
+      - ./src:/home/jovyan/work/src
+      - ./notebooks:/home/jovyan/work/notebooks
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - CHOWN_HOME=yes
+      - CHOWN_HOME_OPTS=-R
+    command: start-notebook.sh --NotebookApp.token='' --NotebookApp.password=''

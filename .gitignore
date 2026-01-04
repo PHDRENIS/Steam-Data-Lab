@@ -1,0 +1,15 @@
+# --- Ignorar Datos Pesados ---
+data/
+src/data/
+*.parquet
+*.json
+*.csv
+
+# --- Ignorar Archivos de Sistema/Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+venv/
+.vscode/
