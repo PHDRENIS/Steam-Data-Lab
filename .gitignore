@@ -1,10 +1,9 @@
 # --- Ignorar Datos Pesados ---
-data/
-src/data/
-*.parquet
-*.json
-*.csv
+# Ignorar todo dentro de la carpeta data
+data/*
 
+# EXCEPCIÓN: ¡No ignorar los archivos .gitkeep!
+!data/**/.gitkeep
 # --- Ignorar Archivos de Sistema/Python ---
 __pycache__/
 *.pyc
