@@ -79,8 +79,14 @@ Posteriormente se debe de utilizar el código que creamos para entrenar el model
 
 **python src/train_model.py**
 
-3. **Lanzamiento de la app*
+3. **Lanzamiento de la app**
 
 Finalmente se debe de inicializar la aplicación que nos enseñara la interfaz gráfica de la aplicación la cual utiliza streamlit para la visualización de la misma además de que utiliza un truco de CSS para que esta interfaz se parezca visualmente a la interfaz de Steam, para iniciarlo es necesario ejecutar el siguiente comando:
 
 **streamlit run src/dashboard.py --server.port 8501 --server.address 0.0.0.0 --browser.serverAddress localhost**
+
+Finalmente con la inicialización de estas se puede visualizar esta aplicación en la entrada del servidor
+
+http://localhost:8501/
+
+Listo se puede visualizar el proyecto montado correctamente
