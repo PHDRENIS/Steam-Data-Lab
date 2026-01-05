@@ -68,3 +68,13 @@ Al instalar la libraria anterior el entorno para que el proyecto funcione de man
 **Implementación del pipeline del proyecto**
 
 1. **Limpieza de los datos** 
+Primeramente se deben de limpiar los datos que se van a utilizar para el proyecto lo que se hace con el programa que creamos previamente por lo que es necesario que ejecutemos este codigo para que los datos se preprocesen de manera correcta por lo que ejecutamos el comando:
+
+python src/ingestion.py
+
+Una vez que se haya implementado el codigo los datos se habran procesado correctamente
+
+2. **Entrenamiento del modelo**
+Posteriormente se debe de utilizar el código que creamos para entrenar el modelo de predicción del proyecto lo que pemitira que el sistema funcione correctamente utilizando este comando para ejecutar el codigo:
+
+python src/train_model.py
