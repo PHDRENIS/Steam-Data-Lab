@@ -37,5 +37,21 @@ proyecto-bigdata-steam/
 
 # Implementación del proyecto en tu propia computadora
 
+**Clonación del Github**
+Primeramente se debe de clonar el repositorio del siguiente [Github](https://github.com/PHDRENIS/Steam-Data-Lab/tree/main) que es el que se va a utilizar para poder inciar el proyecto.
 
+**Descarga de los datos**
+Despues de tener ya el repositorio clonado se tiene que entrar al link de Kaggle ya que estos son los que se utilizaran para el entrenammiento del programa específicamente tomaremos los archivos de:
 
+1. **steam_games.json**
+2. **australian_user_reviews.json**
+3. **australian_users_items.json**
+
+Debes tener estos datos cargados dentro de la carpeta **data/raw/** se ponden dentro los archivos que se indican para le correcto funcionamiento del proyecto
+
+**Iniciar el Docker**
+Una vez que se haya clonado el repositorio y se tengan los datos agregados en las carpetas correctas es necesario inicializar el proyecto en Docker utilizando los siguientes comando para iniciar el Docker.
+
+1. **Linux** sudo docker run -it -p 8888:8888 -p 8501:8501 -v "$(pwd)":/home/jovyan/work jupyter/pyspark-notebook
+
+2. **Windows** docker run -it -p 8888:8888 -p 8501:8501 -v ${PWD}:/home/jovyan/work jupyter/pyspark-notebook
