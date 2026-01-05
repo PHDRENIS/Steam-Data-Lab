@@ -99,4 +99,4 @@ Así se va a ver la aplicación al iniciarse sin tener ninguna recomendación ca
 ![Visualización de página principal](img/Inicio.jpeg)
 
 Visualización de la aplicación cargada correctamente con una recomendación ya cargada en el sistema
-![Resultados de Recomendación](img/Resultados.png)
+![Resultados de Recomendación](img/Resultados.jpeg)
