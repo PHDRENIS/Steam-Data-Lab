@@ -1,6 +1,6 @@
 # 🎮 Steam Data Lab
 
-**Steam Data Lab** es un sistema de recoemdación de juegos que utiliza fundamentos de Big data asi como elementos de Inteligencia Artificial para recomendar videojuegos bbasados en la similitud para obtener entonces 10 juegos que se parezcan de manera significativa al juego que hayas seleccionado previamente en el sidebar previamente instalado utilizando la herramienta de **Apache Spark (PySpark)** para procesar masivamente datos y además cuenta con una interfaz grafica creada con **Streamlit** para la visualización de la aplicación web además de utilizar un truco de CSS para hacer que tenga similitud visual con Steam.
+**Steam Data Lab** es un sistema de recomendación de juegos, que utiliza fundamentos de Big data asi como elementos de Inteligencia Artificial, para recomendar videojuegos basados en la similitud para obtener entonces 10 juegos que se parezcan de manera significativa al juego que hayas seleccionado previamente en el sidebar instalado, utilizando la herramienta de **Apache Spark (PySpark)** para procesar masivamente datos y además cuenta con una interfaz gráfica creada con **Streamlit** para la visualización de la aplicación web además de utilizar un truco de CSS para hacer que tenga similitud visual con Steam.
 
 El sistema implementa un motor de recomendación híbrido que analiza:
 1.  **Similitud de Contenido:** Géneros, desarrolladores y etiquetas de todos los juegos con el juego seleccionado.
