@@ -75,9 +75,10 @@ Primeramente se deben de limpiar los datos que se van a utilizar para el proyect
 Una vez que se haya implementado el codigo los datos se habran procesado correctamente
 
 2. **Entrenamiento del modelo**
+
 Posteriormente se debe de utilizar el código que creamos para entrenar el modelo de predicción del proyecto lo que pemitira que el sistema funcione correctamente utilizando este comando para ejecutar el codigo:
 
-   **python src/train_model.py**
+**python src/train_model.py**
 
 3. **Lanzamiento de la app**
 
