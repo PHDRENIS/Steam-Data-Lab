@@ -49,7 +49,7 @@ Despues de tener ya el repositorio clonado se tiene que entrar al link de Kaggle
 2. **australian_user_reviews.json**
 3. **australian_users_items.json**
 
-Debes tener estos datos cargados dentro de la carpeta **data/raw/** se ponden dentro los archivos que se indican para le correcto funcionamiento del proyecto
+Debes tener estos datos cargados dentro de la carpeta **data/raw/** se ponden dentro los archivos que se indican para el correcto funcionamiento del proyecto
 
 **Iniciar el Docker**
 Una vez que se haya clonado el repositorio y se tengan los datos agregados en las carpetas correctas es necesario inicializar el proyecto en Docker utilizando los siguientes comando para iniciar el Docker.
