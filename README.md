@@ -24,6 +24,7 @@ proyecto-bigdata-steam/
 │   ├── raw/         
 │   ├── processed/   
 │   └── models/
+├── img/
 ├── src/
 │   ├── ingestion.py    
 │   ├── train_model.py   
