@@ -68,6 +68,7 @@ Al instalar la libraria anterior el entorno para que el proyecto funcione de man
 **Implementación del pipeline del proyecto**
 
 1. **Limpieza de los datos** 
+
 Primeramente se deben de limpiar los datos que se van a utilizar para el proyecto lo que se hace con el programa que creamos previamente por lo que es necesario que ejecutemos este codigo para que los datos se preprocesen de manera correcta por lo que ejecutamos el comando:
 
 **python src/ingestion.py**
