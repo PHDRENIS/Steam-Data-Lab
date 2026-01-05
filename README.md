@@ -91,4 +91,12 @@ Finalmente con la inicialización de estas se puede visualizar esta aplicación 
 
 http://localhost:8501/
 
-Listo se puede visualizar el proyecto montado correctamente
+Listo se puede visualizar el proyecto montado correctamente.
+
+# Ejemplos de las pantallas de la aplicación ya iniciada 
+
+Así se va a ver la aplicación al iniciarse sin tener ninguna recomendación cargada aún.
+![Visualización de página principal](img/Inicio.jpeg)
+
+Visualización de la aplicación cargada correctamente con una recomendación ya cargada en el sistema
+![Resultados de Recomendación](img/Resultados.png)
