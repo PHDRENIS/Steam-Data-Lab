@@ -37,10 +37,10 @@ proyecto-bigdata-steam/
 
 # Implementación del proyecto en tu propia computadora
 
-**Clonación del Github**
+1. **Clonación del Github**
 Primeramente se debe de clonar el repositorio del siguiente [Github](https://github.com/PHDRENIS/Steam-Data-Lab/tree/main) que es el que se va a utilizar para poder inciar el proyecto.
 
-**Descarga de los datos**
+2. **Descarga de los datos**
 Despues de tener ya el repositorio clonado se tiene que entrar al link de Kaggle ya que estos son los que se utilizaran para el entrenammiento del programa específicamente tomaremos los archivos de:
 
 1. **steam_games.json**
@@ -49,9 +49,22 @@ Despues de tener ya el repositorio clonado se tiene que entrar al link de Kaggle
 
 Debes tener estos datos cargados dentro de la carpeta **data/raw/** se ponden dentro los archivos que se indican para le correcto funcionamiento del proyecto
 
-**Iniciar el Docker**
+3. **Iniciar el Docker**
 Una vez que se haya clonado el repositorio y se tengan los datos agregados en las carpetas correctas es necesario inicializar el proyecto en Docker utilizando los siguientes comando para iniciar el Docker.
 
 1. **Linux** sudo docker run -it -p 8888:8888 -p 8501:8501 -v "$(pwd)":/home/jovyan/work jupyter/pyspark-notebook
 
 2. **Windows** docker run -it -p 8888:8888 -p 8501:8501 -v ${PWD}:/home/jovyan/work jupyter/pyspark-notebook
+
+Para iniciar el proyecto debes de ingrear al siguiente link del Jupyter notebook que se acaba de iniciar en el link: http://localhost:8888/lab
+
+4. **Confuración del entrono**
+Primeramente se debes de instalar la libreria de streamlit para poder hacer que funcione correctamente el programa instalandolo con el siguiente comando dentro de una terminal en el Jupyter notebook 
+
+pip install streamlit 
+
+Al instalar la libraria anterior el entorno para que el proyecto funcione de manera correcta estara completo
+
+5. **Implementación del pipeline del proyecto**
+
+1. **Limpieza de los datos** 
