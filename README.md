@@ -31,7 +31,8 @@ proyecto-bigdata-steam/
 │   └── dashboard.py     
 ├── docker-compose.yml
 ├── .gitignore
-└── README.md
+├── README.md
+└── requerimients.txt
 
 ```
 ---
@@ -39,7 +40,7 @@ proyecto-bigdata-steam/
 # Implementación del proyecto en tu propia computadora
 
 **Clonación del Github**
-Primeramente se debe de clonar el repositorio del siguiente [Github](https://github.com/PHDRENIS/Steam-Data-Lab/tree/main) que es el que se va a utilizar para poder inciar el proyecto.
+Primeramente se debe de clonar el repositorio del este Github que es el que se va a utilizar para poder inciar el proyecto.
 
 **Descarga de los datos**
 Despues de tener ya el repositorio clonado se tiene que entrar al link de Kaggle ya que estos son los que se utilizaran para el entrenammiento del programa específicamente tomaremos los archivos de:
