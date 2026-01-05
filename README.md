@@ -61,11 +61,11 @@ Una vez que se haya clonado el repositorio y se tengan los datos agregados en la
 Para iniciar el proyecto debes de ingrear al siguiente link del Jupyter notebook que se acaba de iniciar en el link: http://localhost:8888/lab
 
 **Confuración del entrono**
-Primeramente se debe de instalar las librerias que se tienen que utilizar para el funcionamiento del proyecto los cuales se encuentran en el archivo de requeriments.txt por lo que es necesario que se utilice el comando que instale las librerias del documento las cuales se instalan con el comando:
+Primeramente se debe de instalar las librerias que se tienen que utilizar para el funcionamiento del proyecto, los cuales se encuentran en el archivo de requeriments.txt por lo que es necesario que se utilice el comando que instale las librerias del documento las cuales se instalan con el comando:
 
 **pip install -r requirements.txt**
 
-Al instalar la libraria anterior el entorno para que el proyecto funcione de manera correcta estara completo
+Al ejecutar este comando el entorno se ah configurado correctamente.
 
 **Implementación del pipeline del proyecto**
 
@@ -79,7 +79,7 @@ Una vez que se haya implementado el codigo los datos se habran procesado correct
 
 2. **Entrenamiento del modelo**
 
-Posteriormente se debe de utilizar el código que creamos para entrenar el modelo de predicción del proyecto lo que pemitira que el sistema funcione correctamente utilizando este comando para ejecutar el codigo:
+Posteriormente se debe de utilizar el código que creamos para entrenar el modelo de predicción del proyecto lo que permitira que el sistema funcione correctamente utilizando este comando para ejecutar el código:
 
 **python src/train_model.py**
 
