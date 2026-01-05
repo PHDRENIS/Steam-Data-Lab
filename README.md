@@ -59,9 +59,9 @@ Una vez que se haya clonado el repositorio y se tengan los datos agregados en la
 Para iniciar el proyecto debes de ingrear al siguiente link del Jupyter notebook que se acaba de iniciar en el link: http://localhost:8888/lab
 
 **Confuración del entrono**
-Primeramente se debes de instalar la libreria de streamlit para poder hacer que funcione correctamente el programa instalandolo con el siguiente comando dentro de una terminal en el Jupyter notebook 
+Primeramente se debe de instalar las librerias que se tienen que utilizar para el funcionamiento del proyecto los cuales se encuentran en el archivo de requeriments.txt por lo que es necesario que se utilice el comando que instale las librerias del documento las cuales se instalan con el comando:
 
-pip install streamlit 
+**pip install -r requirements.txt**
 
 Al instalar la libraria anterior el entorno para que el proyecto funcione de manera correcta estara completo
 
@@ -70,11 +70,17 @@ Al instalar la libraria anterior el entorno para que el proyecto funcione de man
 1. **Limpieza de los datos** 
 Primeramente se deben de limpiar los datos que se van a utilizar para el proyecto lo que se hace con el programa que creamos previamente por lo que es necesario que ejecutemos este codigo para que los datos se preprocesen de manera correcta por lo que ejecutamos el comando:
 
-python src/ingestion.py
+**python src/ingestion.py**
 
 Una vez que se haya implementado el codigo los datos se habran procesado correctamente
 
 2. **Entrenamiento del modelo**
 Posteriormente se debe de utilizar el código que creamos para entrenar el modelo de predicción del proyecto lo que pemitira que el sistema funcione correctamente utilizando este comando para ejecutar el codigo:
 
-python src/train_model.py
+**python src/train_model.py**
+
+3. **Lanzamiento de la app*
+
+Finalmente se debe de inicializar la aplicación que nos enseñara la interfaz gráfica de la aplicación la cual utiliza streamlit para la visualización de la misma además de que utiliza un truco de CSS para que esta interfaz se parezca visualmente a la interfaz de Steam, para iniciarlo es necesario ejecutar el siguiente comando:
+
+**streamlit run src/dashboard.py --server.port 8501 --server.address 0.0.0.0 --browser.serverAddress localhost**
